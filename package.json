@@ -1,0 +1,26 @@
+{
+  "name": "nontonanimeid-rest-api",
+  "version": "1.0.0",
+  "description": "Simple REST API using NontonAnimeID Scraper (CommonJS)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "anime",
+    "scraper",
+    "rest-api",
+    "nodejs",
+    "express"
+  ],
+  "author": "Your Name/Alias",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "check-disk-space": "^3.4.0",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7" 
+  }
+}
